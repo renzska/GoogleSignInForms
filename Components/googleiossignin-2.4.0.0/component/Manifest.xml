@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="googleiossignin" is-shell="true">
+  <name>Google Sign-In for iOS</name>
+  <publisher>Xamarin Inc.</publisher>
+  <publisher-url>http://xamarin.com</publisher-url>
+  <docs-url>https://developers.google.com/identity/sign-in/ios/api/index</docs-url>
+  <version>2.4.0.0</version>
+  <summary>Get users into your apps quickly and securely, using a registration system they already use and trust.</summary>
+  <packages>
+    <package id="Xamarin.Google.iOS.SignIn" version="2.4.0.0" framework="ios-unified" />
+  </packages>
+  <samples>
+    <sample id="SignInExample">
+      <name>Sign-In Sample</name>
+      <summary>Sign-In Sample</summary>
+    </sample>
+  </samples>
+</component>

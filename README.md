@@ -1,2 +1,2 @@
 # GoogleSignInForms
-A Xamarin.Forms sample using Google SignIn SDK Component with XAML
+A Xamarin.Forms sample for using the GoogleSignInForms in Xaml

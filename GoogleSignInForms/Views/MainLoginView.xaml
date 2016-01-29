@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coreviews:GoogleSignInPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:coreviews="clr-namespace:GoogleSignInForms.Views;assembly=GoogleSignInForms"
+	x:Class="GoogleSignInForms.Views.MainLoginView">
+	<Grid
+		BackgroundColor="White"
+		Padding="5,5,5,10">
+		<Grid.RowDefinitions>
+			<RowDefinition
+				Height="*" />
+			<RowDefinition
+				Height="Auto" />
+		</Grid.RowDefinitions>
+		<StackLayout
+			Grid.Row="1"
+			Spacing="10"
+			HorizontalOptions="Center"
+			VerticalOptions="CenterAndExpand"
+			Padding="20,10,20,10">
+			<Label
+				HorizontalOptions="Center"
+				YAlign="Center"
+				FontSize="Medium">Sign up or login using</Label>
+			<!-- https://developers.google.com/identity/branding-guidelines#sign-in-button -->
+			<coreviews:GoogleLoginView
+				HeightRequest="48" />
+		</StackLayout>
+	</Grid>
+</coreviews:GoogleSignInPage>
